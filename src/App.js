@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Button from './components/Button/button';
 import ClickVoice from './assets/audios/click.mp3';
 import EnterVoice from './assets/audios/enter.mp3';
-
+//Calculator project.
 const App = () => {
     const [calc, setCalc] = useState('');
     const [result, setResult] = useState('');
